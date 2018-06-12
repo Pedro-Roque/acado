@@ -51,16 +51,17 @@
  *  @{
  */
 
-REFER_NAMESPACE_ACADO IntermediateState sin ( const REFER_NAMESPACE_ACADO Expression &arg   );
-REFER_NAMESPACE_ACADO IntermediateState cos ( const REFER_NAMESPACE_ACADO Expression &arg   );
-REFER_NAMESPACE_ACADO IntermediateState tan ( const REFER_NAMESPACE_ACADO Expression &arg   );
-REFER_NAMESPACE_ACADO IntermediateState asin( const REFER_NAMESPACE_ACADO Expression &arg   );
-REFER_NAMESPACE_ACADO IntermediateState acos( const REFER_NAMESPACE_ACADO Expression &arg   );
-REFER_NAMESPACE_ACADO IntermediateState atan( const REFER_NAMESPACE_ACADO Expression &arg   );
-REFER_NAMESPACE_ACADO IntermediateState exp ( const REFER_NAMESPACE_ACADO Expression &arg   );
-REFER_NAMESPACE_ACADO IntermediateState sqrt( const REFER_NAMESPACE_ACADO Expression &arg   );
-REFER_NAMESPACE_ACADO IntermediateState ln  ( const REFER_NAMESPACE_ACADO Expression &arg   );
-REFER_NAMESPACE_ACADO IntermediateState log ( const REFER_NAMESPACE_ACADO Expression &arg   );
+REFER_NAMESPACE_ACADO IntermediateState sin  ( const REFER_NAMESPACE_ACADO Expression &arg   );
+REFER_NAMESPACE_ACADO IntermediateState cos  ( const REFER_NAMESPACE_ACADO Expression &arg   );
+REFER_NAMESPACE_ACADO IntermediateState tan  ( const REFER_NAMESPACE_ACADO Expression &arg   );
+REFER_NAMESPACE_ACADO IntermediateState asin ( const REFER_NAMESPACE_ACADO Expression &arg   );
+REFER_NAMESPACE_ACADO IntermediateState acos ( const REFER_NAMESPACE_ACADO Expression &arg   );
+REFER_NAMESPACE_ACADO IntermediateState atan ( const REFER_NAMESPACE_ACADO Expression &arg   );
+REFER_NAMESPACE_ACADO IntermediateState atan2( const REFER_NAMESPACE_ACADO Expression &arg   );
+REFER_NAMESPACE_ACADO IntermediateState exp  ( const REFER_NAMESPACE_ACADO Expression &arg   );
+REFER_NAMESPACE_ACADO IntermediateState sqrt ( const REFER_NAMESPACE_ACADO Expression &arg   );
+REFER_NAMESPACE_ACADO IntermediateState ln   ( const REFER_NAMESPACE_ACADO Expression &arg   );
+REFER_NAMESPACE_ACADO IntermediateState log  ( const REFER_NAMESPACE_ACADO Expression &arg   );
 
 
 REFER_NAMESPACE_ACADO IntermediateState pow (	const REFER_NAMESPACE_ACADO Expression &arg1,

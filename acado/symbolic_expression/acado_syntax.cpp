@@ -40,16 +40,17 @@ USING_NAMESPACE_ACADO
 // ------------------------------------------------------------------------------------
 
 
-IntermediateState sin ( const Expression &arg ){ return arg.getSin(); }
-IntermediateState cos ( const Expression &arg ){ return arg.getCos (); }
-IntermediateState tan ( const Expression &arg ){ return arg.getTan (); }
-IntermediateState asin( const Expression &arg ){ return arg.getAsin(); }
-IntermediateState acos( const Expression &arg ){ return arg.getAcos(); }
-IntermediateState atan( const Expression &arg ){ return arg.getAtan(); }
-IntermediateState exp ( const Expression &arg ){ return arg.getExp (); }
-IntermediateState sqrt( const Expression &arg ){ return arg.getSqrt(); }
-IntermediateState ln  ( const Expression &arg ){ return arg.getLn  (); }
-IntermediateState log ( const Expression &arg ){ return arg.getLn  (); }
+IntermediateState sin  ( const Expression &arg ){ return arg.getSin();   }
+IntermediateState cos  ( const Expression &arg ){ return arg.getCos ();  }
+IntermediateState tan  ( const Expression &arg ){ return arg.getTan ();  }
+IntermediateState asin ( const Expression &arg ){ return arg.getAsin();  }
+IntermediateState acos ( const Expression &arg ){ return arg.getAcos();  }
+IntermediateState atan ( const Expression &arg ){ return arg.getAtan();  }
+IntermediateState atan2( const Expression &arg ){ return arg.getAtan2(); }
+IntermediateState exp  ( const Expression &arg ){ return arg.getExp ();  }
+IntermediateState sqrt ( const Expression &arg ){ return arg.getSqrt();  }
+IntermediateState ln   ( const Expression &arg ){ return arg.getLn  ();  }
+IntermediateState log  ( const Expression &arg ){ return arg.getLn  ();  }
 
 IntermediateState pow( const Expression &arg1, const Expression &arg2 ){
   
